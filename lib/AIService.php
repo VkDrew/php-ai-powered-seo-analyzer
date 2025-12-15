@@ -3,6 +3,7 @@ require_once __DIR__ . '/EnvLoader.php';
 require_once __DIR__ . '/providers/GoogleProvider.php';
 require_once __DIR__ . '/providers/OpenAIProvider.php';
 require_once __DIR__ . '/providers/GroqProvider.php';
+require_once __DIR__ . '/providers/HuggingFaceProvider.php';
 
 class AIService {
     private AIProviderInterface $provider;
@@ -21,6 +22,13 @@ class AIService {
                 $key = $_ENV['GROQ_API_KEY'] ?? null;
                 if (!$key) throw new Exception("GROQ_API_KEY missing");
                 $this->provider = new GroqProvider($key);
+                break;
+            case 'huggingface':
+                $url = $_ENV['HUGGINGFACE_API_URL'] ?? null;
+                if (!$url) throw new Exception("HUGGINGFACE_API_URL missing");
+                // Token is optional for public spaces
+                $token = $_ENV['HUGGINGFACE_API_TOKEN'] ?? null;
+                $this->provider = new HuggingFaceProvider($url, $token);
                 break;
             default: // openai
                 $key = $_ENV['OPENAI_API_KEY'] ?? null;
